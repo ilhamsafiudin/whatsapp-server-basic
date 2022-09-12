@@ -27,7 +27,7 @@ Langkah2 **instalasi** di gui system (untuk non gui linux server ada tambahan in
 **End-Point:** /send-group-message  
 **Params Body:** id (string), name (string), message (string) //*bisa pilih id atau group name*  
 **Response sukses:** 
-`{ "status": true, "response": {} }`
+`{ "status": true, "response": {} }`  
 **Response error:** 
 `{ "status": false, "message": "sesuai validasi error" }`
 
@@ -35,6 +35,6 @@ Langkah2 **instalasi** di gui system (untuk non gui linux server ada tambahan in
 **End-Point:** /send-image  
 **Params Body:** number (int), file (string, berupa url), caption (string)  
 **Response sukses:** 
-`{ "status": true, "response": {} }`
+`{ "status": true, "response": {} }`  
 **Response error:** 
 `{ "status": false, "message": "sesuai validasi error" }`
