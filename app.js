@@ -142,7 +142,7 @@ app.post('/send-message', [
   }).catch(err => {
     res.status(500).json({
       status: false,
-      response: err
+      message: err
     });
   });
 });
@@ -209,7 +209,7 @@ app.post('/send-group-message', [
   }).catch(err => {
     res.status(500).json({
       status: false,
-      response: err
+      message: err
     });
   });
 });
@@ -272,7 +272,7 @@ app.post('/send-image', [
   }).catch(err => {
     res.status(500).json({
       status: false,
-      response: err
+      message: err
     });
   });
 });
